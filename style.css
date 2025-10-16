@@ -217,6 +217,8 @@ nav ul li a:hover{
     cursor: pointer;
     box-shadow:  5px 5px 10px 0 rgba(0, 0, 0, 0.5); 
     transition: transform 0.3s ease;
+      
+
 }
 
 .menu-cart:hover{
@@ -301,6 +303,7 @@ span{
 
 
 .menu-cart button{
+    
     padding: 15px;
     margin-top: 20px;
     margin-bottom : 30px;
@@ -338,7 +341,9 @@ span{
     .galerie-cart img {
         width: 100%;
         height: auto;
+
     }
+    
         
 }
 @media (min-width:768px) and (max-width:900px) {
@@ -349,11 +354,30 @@ span{
         margin-top: 1rem;
     }
 }
+@media (min-width:480px) and (max-width:768px) {
+    .menu ,.avis {
+ grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+    .icons{
+        margin-top: 1rem;
+    }
+}
+
+
 @media  (max-width:480px) {
-    .menu,.avis {
- grid-template-columns:1fr 1fr ;
+   
+    .avis {
+        grid-template-columns:1fr 1fr;
     }
     
+    
+.galerie-cart img {
+        width: 100%;
+        height: auto;
+        
+
+    }
+
     .icons{
         margin-top: 1rem;
     }

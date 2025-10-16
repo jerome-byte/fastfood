@@ -350,7 +350,7 @@ span{
     }
 }
 @media  (max-width:480px) {
-    .avis {
+    .menu,.avis {
  grid-template-columns:1fr 1fr ;
     }
     

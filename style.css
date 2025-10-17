@@ -459,6 +459,7 @@ span{
 .avis-cart{
     height: 30vh;
     padding: 15px;
+    margin-top: 1rem;
 }
 
 .contenair{
@@ -499,8 +500,8 @@ span{
 }
 
 .contact-form h2 {
-    margin-bottom: 20px;
-    color:  #804e18;;
+    margin-bottom: 20px ;
+    color:  #804e18;
 }
 
 
